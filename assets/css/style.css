@@ -8,7 +8,7 @@
   --bg-black: #2c2c2c;
   --bg-light-pink: #ff007a;
   --bg-light-gray: #f6f9fe;
-  --bg-gradient: linear-gradient(to top, #ff007a 0%, rgba 142, 0, 116, 1 100%);
+  --bg-gradient: linear-gradient(to top, #ff007a, #9b265f);
   --bg-card-shadow: 0 0.188rem 1.25rem 0px rgba(0, 0, 0, 0.06);
   --bg-card-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   --bg-light-gray-1: #eee;
@@ -388,4 +388,76 @@ img {
 .single_promo_1 p {
   padding-top: 0.625rem;
   font-size: 0.938rem;
+}
+
+/* Features CSS */
+#features .title {
+  height: 800px;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 100px;
+  background: url(../images/feature-bg.png) no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+#features .title h2 {
+  margin-bottom: 0.813rem;
+}
+.features_middle h2,
+.features_middle p {
+  color: var(--text-white);
+}
+.feature_img {
+  text-align: right;
+}
+.feature_img img {
+  max-width: 60%;
+}
+.margin_top_up {
+  margin-top: -30rem;
+}
+.single_feature {
+  background-color: var(--text-white);
+  margin-top: 1.875rem;
+  padding: 2.2rem 2.5rem 2.138rem 3.125rem;
+  position: relative;
+  border-radius: 1.563rem;
+  -webkit-box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 /8%);
+  box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 /8%);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 3px;
+  color: var(--text-white);
+  font-size: 23px;
+  border-bottom-left-radius: 25px;
+  background: linear-gradient(to top, #ff007a, #9b265f);
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.single_feature:hover {
+  color: var(--text-white);
+  background: var(--bg-gradient);
 }
