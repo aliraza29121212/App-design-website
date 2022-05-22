@@ -2,6 +2,9 @@
   /* ===============================
     Features CSS
     ================================== */
+  .margin_top_up {
+    margin-top: -25rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -108,6 +111,9 @@
   /* =============================
     Counter CSS
    ============================= */
+  .single_counter:nth-child(2):after {
+    display: none;
+  }
 
   /* =============================
     Feature CSS
@@ -117,5 +123,11 @@
   }
   .margin_top_up {
     margin-top: 0rem;
+  }
+  .features_middle {
+    text-align: center;
+  }
+  .features_img img {
+    max-width: 95%;
   }
 }
