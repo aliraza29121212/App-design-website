@@ -522,3 +522,40 @@ svg:not(:root).svg-inline--fa {
   padding-left: 0.563rem;
   padding-top: 0.438rem;
 }
+.single_price .icon_pad .fa-brands {
+  background: var(--bg-light-pink);
+  color: var(--text-white);
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 100%;
+  margin: 0 0 0 -0.63rem;
+  padding-left: 0.625rem;
+  padding: 1.125rem;
+  font-size: 1.625rem;
+}
+.single_price .doler h2 {
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+.single_price .doler h2 span {
+  font-weight: 600;
+  vertical-align: super;
+  padding-right: 0.125rem;
+  font-size: 1.875rem;
+}
+.single_price li {
+  padding: 0.313rem 0;
+}
+.single_price:hover {
+  cursor: pointer;
+  margin-top: -0.625rem;
+}
+.active_price {
+  background: var(--bg-gradient);
+  color: var(--text-white);
+}
+.active_price h5,
+.active_price .dolar h2,
+.active_price .dolar-sine {
+  color: white;
+}
