@@ -460,3 +460,65 @@ svg:not(:root).svg-inline--fa {
   color: var(--text-white);
   background: var(--bg-gradient);
 }
+
+/* app-screenshots CSS */
+.app-screen {
+  padding-bottom: 5.313rem;
+}
+.app-screen .swiper-slide {
+  width: 263px !important;
+  height: auto;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 0.5rem;
+}
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #ff007a;
+}
+
+/* Pricing CSS */
+.single_price {
+  -webkit-box-shadow: 0 0.313rem 0.875rem rgb(45 49 54 /9%);
+  box-shadow: 0 0.313rem 0.875rem rgb(45 49 54 /9%);
+  text-align: center;
+  padding: 2.5rem 0;
+  position: relative;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.single_price .month {
+  background: var(--bg-gradient);
+  color: var(--text-white);
+  width: 6.25rem;
+  padding: 0.625rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 1.625rem;
+  right: -0.563rem;
+}
+.single_price .month:before {
+  content: "";
+  top: 0.563rem;
+  left: -0.938rem;
+  background: var(--bg-light-pink);
+  position: absolute;
+  transform: rotate(45deg);
+  padding: 0.938rem;
+}
+.single_price .icon_pad {
+  width: 5rem;
+  height: 4.875rem;
+  margin: 2.5rem auto 3.125rem;
+  border-right: dashed 0.313rem #ff007a;
+  border-bottom: solid 0.313rem #ff007a;
+  border-radius: 100%;
+  padding-left: 0.563rem;
+  padding-top: 0.438rem;
+}
